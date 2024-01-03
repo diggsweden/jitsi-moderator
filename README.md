@@ -13,16 +13,16 @@ A React Vite app that adds more features on top of Jitsi to help manage meetings
 
 ## Table of Contents
 
--   [Installation and Requirements](#installation-and-requirements)
--   [Quickstart Instructions](#quick-start-instructions)
--   [Usage](#usage)
--   [Known Issues](#known-issues)
--   [Support](#support)
--   [Contributing](#contributing)
--   [Development](#development)
--   [License](#license)
--   [Maintainers](#maintainers)
--   [Credits and References](#credits-and-references)
+- [Installation and Requirements](#installation-and-requirements)
+- [Quickstart Instructions](#quick-start-instructions)
+- [Usage](#usage)
+- [Known Issues](#known-issues)
+- [Support](#support)
+- [Contributing](#contributing)
+- [Development](#development)
+- [License](#license)
+- [Maintainers](#maintainers)
+- [Credits and References](#credits-and-references)
 
 ## Installation and Requirements
 
@@ -31,8 +31,6 @@ Detailed instructions on how to install, configure, and get the project running.
 You need to install the dependencies prior to following any of the steps in this section:
 
 `$ npm install`
-
-> Follow this [link](https://classic.yarnpkg.com/lang/en/docs/install/#mac-stable) to install Yarn if you don't have it installed.
 
 ### Running the development environment
 
@@ -69,21 +67,21 @@ https://jitsi.github.io/handbook/docs/dev-guide/dev-guide-iframe.
 
 ## Quick start instructions
 
-Just run `$ yarn install && yarn dev` to start the project as quickly as possible. Note that this starts the development version of the project.
+Just run `$ npm install && npm start` to start the project as quickly as possible. Note that this starts the development version of the project.
 
 ## Usage
 
 The software can be used to connect to a Jitsi meeting and get some extra features that are not necessarily available in the normal Jitsi interface. Some of the features that are available are listed below:
 
--   Mute and unmute all participants
--   Send messages between breakout rooms
--   Send messages to all breakout rooms
--   Create breakout rooms with specific names
+- Mute and unmute all participants
+- Send messages between breakout rooms
+- Send messages to all breakout rooms
+- Create breakout rooms with specific names
 
 ## Known issues
 
--   It is currently not possible to join a meet.jit.si conference with the dashboard
--   Jitsi instances leveraging Jitsi's own authentication mechanism are not possible to join with the dashboard
+- It is currently not possible to join a meet.jit.si conference with the dashboard
+- Jitsi instances leveraging Jitsi's own authentication mechanism are not possible to join with the dashboard
 
 ## Support
 
